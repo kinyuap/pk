@@ -1,0 +1,2398 @@
+.thumbnail-pic{
+width: 100%;
+border-radius: 5px;
+}
+.channel-pic{
+    width: 50px;
+    border-radius: 25px;
+}
+.div-2{
+    display:flex;
+}
+.div-2 p{
+    margin-left: 5px;
+}
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.thumbnail{
+    position: relative;
+}
+.time{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px 2px 1px ;
+    right: 7px;
+    bottom: 8px;
+    background-color: black;
+    color: white;
+}
+.body{
+
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12105239-13">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-12105239-13');
+    </script> -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-654B7TR8WZ"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-654B7TR8WZ'); </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PR3V7GZ');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+
+    <meta charset="utf-8" />
+	<base href="https://www.safaricom.co.ke/" />
+	<meta name="keywords" content="Mobile Phones, Tablets, Mobile Money Solutions, Data plans, Fastest 4G internet in Kenya,Postpaid ,prepaid, Cheap 4G smartphones, best Data Network, Best voice network, best sms network, best network in kenya, widest network coverage in kenya, best mobile network in kenya." />
+	<meta name="author" content="Super User" />
+	<meta name="description" content="The leading communications company in Kenya with the widest Network coverage, Best data, voice &amp; SMS network, affordable prepaid and postpaid." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Safaricom - Voice | Data | M-PESA | Postpaid | Prepaid</title>
+	<link href="/templates/protostar/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/index.php?option=com_ajax&plugin=arktypography&format=json" rel="stylesheet" />
+	<link href="/plugins/system/jce/css/content.css?aa754b1f19c7df490be4b958cf085e7c" rel="stylesheet" />
+	<link href="https://www.safaricom.co.ke/modules/mod_custom_code/assets/css/style.css" rel="stylesheet" />
+	<link href="https://www.safaricom.co.ke/modules/mod_footer_items/assets/css/style.css" rel="stylesheet" />
+	<link href="https://www.safaricom.co.ke/modules/mod_phones_langing/assets/css/style.css" rel="stylesheet" />
+	<style>
+
+  .rapid_contact .form-control { max-width: 95%; margin-bottom: 8px; }
+  .rapid_contact .g-recaptcha { margin-bottom: 10px; max-width: 95%; }
+
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"e2f1fed96e1b067846faf9aca9fbff9c","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/jui/js/bootstrap.min.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/system/js/caption.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/system/js/mootools-core.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/system/js/core.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="/media/system/js/mootools-more.js?5416d3cff78f8081aaa5d0b20785e5b7"></script>
+	<script src="https://www.safaricom.co.ke/modules/mod_custom_code/assets/js/script.js"></script>
+	<script src="https://www.safaricom.co.ke/modules/mod_footer_items/assets/js/script.js"></script>
+	<script src="https://www.safaricom.co.ke/modules/mod_phones_langing/assets/js/script.js"></script>
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+
+  function rp_checkCaptcha(form_id) {
+    result = true;
+    if (document.getElementById(form_id+"_hasCaptcha")) {
+      if ((grecaptcha) && (jQuery(".g-recaptcha").length == 1)) { // We only know how to deal with Google ReCaptcha, and only one of it in JS
+        if (grecaptcha.getResponse().length == 0) {
+          alert("Please complete the captcha");
+          result = false;
+        }
+      }
+    }
+    return result;
+  }
+
+	</script>
+
+
+
+    <!-- <link rel="icon" href="/templates/protostar/favicon.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="https://www.safaricom.co.ke//templates/protostar/favicon.ico">
+
+    <!--StyleSheet-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.safaricom.co.ke//templates/protostar/css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.safaricom.co.ke//templates/protostar/css/style.css?v=1237" type="text/css" />
+    <link rel="stylesheet" href="https://live.mystocks.co.ke/res/mystocks_ir_$1649199680.css" type="text/css" />
+
+    <!--Javascript-->
+        <script type="text/javascript">
+        var apiurl = 'https://www.safaricom.co.ke/';
+        var pageid = 'http://www.safaricom.co.ke/';
+    </script>
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    <script src="https://www.safaricom.co.ke//templates/protostar/js/jquery-3.6.0.min.js"></script>
+    <!--# Start of myStocks IR JS code -->
+    <script async defer type="text/javascript" src="https://live.mystocks.co.ke/ajax/ir/jst/SCOM" referrerpolicy='origin'></script>
+    <script async defer type="text/javascript" src="https://live.mystocks.co.ke/ajax/ir/js/SCOM" referrerpolicy='origin'></script>
+    <!--# End of myStocks IR JS code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12105239-13">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+
+
+        gtag('config', 'UA-12105239-13');
+    </script>
+
+    <script type="application/ld+json">
+        [   {     "@context": "http://schema.org",     "@type": "Organization",     "name": "Safaricom",     "alternateName": "Safaricom PLC",     "url": "https://www.safaricom.co.ke/",     "logo": "https://www.safaricom.co.ke/images/safaricom-logo-green.png",     "sameAs": [     "https://www.facebook.com/SafaricomPLC/",     "https://www.instagram.com/safaricomplc_/",     "https://www.youtube.com/user/SafaricomOfficial",     "https://www.linkedin.com/company/safaricom/"   ],   "email": "customercare@safaricom.co.ke",   "telephone": "254 722 002100",   "contactType": "customer Service"   },   {     "@context": "http://schema.org",     "@type": "WebSite",     "name": "Safaricom",     "url": "https://www.safaricom.co.ke/",     "potentialAction": {     "@type": "SearchAction",     "target": "https://www.safaricom.co.ke/search-results?q=data{search_term_string}data",     "query-input": "required name=search_term_string"     }   },   {     "@context": "http://schema.org",     "@type": "BreadcrumbList",    "itemListElement": [{     "@type": "ListItem",      "position": 1,      "name": "Personal",     "item": "https://www.safaricom.co.ke/personal"     },{     "@type": "ListItem",      "position": 2,      "name": "Business",     "item": "https://www.business.safaricom.co.ke/"     },{     "@type": "ListItem",      "position": 3,      "name": "About Us",     "item": "https://www.safaricom.co.ke/about-landing"     },{     "@type": "ListItem",      "position": 4,      "name": "Investor Relations",     "item": "https://www.safaricom.co.ke/investor-relations"     },{     "@type": "ListItem",      "position": 5,      "name": "Fraud Awareness",     "item": "https://www.safaricom.co.ke/fraud-awareness"     },{     "@type": "ListItem",      "position": 6,      "name": "Media",     "item": "https://www.safaricom.co.ke/media-center"     },{     "@type": "ListItem",      "position": 7,      "name": "Customer Service",     "item": "https://www.safaricom.co.ke/centers"     },{     "@type": "ListItem",      "position": 8,      "name": "Voice",     "item": "https://www.safaricom.co.ke/personal/voice/voice-tariffs"     },{     "@type": "ListItem",      "position": 9,      "name": "Data",     "item": "https://www.safaricom.co.ke/personal/data/data-tariffs"     },{     "@type": "ListItem",      "position": 10,      "name": "M-PESA",     "item": "https://www.safaricom.co.ke/personal/m-pesa/m-pesa-home"     },{     "@type": "ListItem",      "position": 11,      "name": "Home Fibre",     "item": "https://internet.safaricom.co.ke/home#get-connected"     },{     "@type": "ListItem",      "position": 12,      "name": "Value Added Service",     "item": "https://www.safaricom.co.ke/personal/value-added-services"     },{     "@type": "ListItem",      "position": 13,      "name": "Buy a Device",     "item": "https://www.safaricom.co.ke/personal/buy-a-device"     }]   } ]    </script>
+
+
+</head>
+
+<body>
+
+    <div class="mainwrapper">
+        <div class="header-area header-area--absolute">
+            <div class="header-top-bar-info border-bottom   ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="top-bar-wrap">
+                                <div class="top-bar-left">
+
+                                    <ul class="topbar-menu ">
+<li class="item-1878"><a href="/personal" >Personal </a></li><li class="item-102"><a href="https://www.business.safaricom.co.ke/" target="_blank" rel="noopener noreferrer">Business</a></li><li class="item-1503"><a href="/about-landing" >About Us</a></li><li class="item-105"><a href="/investor-relations" >Investor Relations</a></li><li class="item-1882"><a href="/fraud-awareness" >Fraud Awareness</a></li><li class="item-349"><a href="/media-center" >Media</a></li><li class="item-119"><a href="/customer-service" >Customer Service </a></li></ul>
+
+
+                                </div>
+                                <!-- <div class="top-bar-right"> -->
+
+                                                                     <div class="top-bar-right">
+<div class="fontsizeBlock">
+<div class="fsize-decrease"><a class="btn-read-more help-menu customer" href="/about/join-safaricom/new-customer">New Customer</a></div>
+</div>
+<div class="fontsizeBlock">
+<div class="fsize-decrease"><a class="btn-read-more help-menu" data-toggle="modal" data-target="#exampleModal">Help</a></div>
+</div>
+ <div class="header-search-form-two">
+                    <form action="#" class="search-form-top-active">
+                      <div class="search-icon" id="search-overlay-trigger">
+                        <a >
+                          <i class="fa fa-search"></i>
+                        </a>
+                      </div>
+                    </form>
+                  </div>
+<div class="allsites-menu"><a> <span class="allsite_header--text"><i class="icofont-web"></i> All Sites</span> </a></div>
+</div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slide-bar start -->
+
+
+            <div class="body-overlay"></div>
+            <div class="header-bottom-wrap header-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="header position-relative">
+
+                                <!-- brand logo -->
+                                <div class="header__logo"> <a href="https://www.safaricom.co.ke/">
+                                        <img src="https://www.safaricom.co.ke/images/safaricom-logo-green.png" alt="" />                                    </a>
+                                </div>
+                                <div class="mobile-logo">
+                                    <a href="https://www.safaricom.co.ke/">
+                                        
+
+<div class="custom"  >
+	<p><img src="/images/icons/mobile-logo.svg" alt="safaricom mobile" /></p></div>
+
+                                    </a>
+                                </div>
+
+                                <div class="header-right">
+                                    <!-- navigation menu -->
+                                    <div class="header__navigation menu-style-four d-none d-lg-block">
+                                        <nav class="navigation-menu">
+                                            <!-- <ul class="">
+<li class="item-114 has-children parent"><a href="/personal/voice/voice-tariffs" >Voice</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-115"><a href="/personal/voice/voice-tariffs" >Tariffs</a></li><li class="item-591"><a href="/personal/voice/monthly-plans-voice" >Monthly Plans</a></li><li class="item-122"><a href="https://roaming.safaricom.co.ke/index.php/home" target="_blank" rel="noopener noreferrer">Roaming Services</a></li><li class="item-437"><a href="https://roaming.safaricom.co.ke/index.php/international-calling-rates" target="_blank" rel="noopener noreferrer">International Calling Rates</a></li><li class="item-1562"><a href="/personal/voice/volte" >VoLTE</a></li><li class="item-1823"><a href="/personal/voice/voice-promotions-offers" >Promotions &amp; Offers </a></li><li class="item-610"><a href="/personal/voice/voice-security" >Voice Security </a></li></ul></li><li class="item-110 has-children parent"><a href="/personal/data/data-tariffs" >Data</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-118"><a href="/personal/data/getting-started-data" >Getting Started</a></li><li class="item-120"><a href="/personal/data/data-tariffs" >Tariffs</a></li><li class="item-590"><a href="/personal/data/monthly-plans-data" >Monthly Plans</a></li><li class="item-116"><a href="https://roaming.safaricom.co.ke/index.php/home" target="_blank" rel="noopener noreferrer">Roaming Services</a></li><li class="item-121"><a href="/personal/data/data-promotions-offers" >Promotions &amp; Offers</a></li><li class="item-2060"><a href="/personal/data/tips-and-tricks" >Tips and Tricks </a></li></ul></li><li class="item-212 has-children parent"><a href="/personal/m-pesa" >M-PESA</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-217"><a href="/personal/m-pesa/getting-started" >Getting Started</a></li><li class="item-622"><a href="/personal/m-pesa/mpesa-charges" >M-PESA Charges</a></li><li class="item-213"><a href="/personal/m-pesa/lipa-na-m-pesa" >Lipa na M-PESA</a></li><li class="item-214"><a href="/personal/m-pesa/credit-and-savings" >Credit and Savings</a></li><li class="item-282"><a href="/personal/m-pesa/do-more-with-m-pesa" >Do More With M-PESA</a></li><li class="item-1825"><a href="https://www.safaricom.co.ke/mpesaglobalpay/" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">M-PESA GlobalPay with VISA</a></li><li class="item-216"><a href="/personal/m-pesa/m-pesa-legal" >M-PESA Legal</a></li><li class="item-215"><a href="/personal/m-pesa/promotions-and-offers" >Promotions and Offers</a></li><li class="item-1586"><a href="/personal/m-pesa/m-pesa-journey" >M-PESA Journey</a></li></ul></li><li class="item-112"><a href="https://internet.safaricom.co.ke/home#get-connected" target="_blank" rel="noopener noreferrer">Home Fibre</a></li><li class="item-113"><a href="/personal/value-added-services" >Value Added Services</a></li><li class="item-104"><a href="/personal/buy-a-device" >Buy A Device</a></li></ul>
+
+                             -->
+
+                                                                                            <ul class="">
+<li class="item-114 has-children parent"><a href="/personal/voice/voice-tariffs" >Voice</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-115"><a href="/personal/voice/voice-tariffs" >Tariffs</a></li><li class="item-591"><a href="/personal/voice/monthly-plans-voice" >Monthly Plans</a></li><li class="item-122"><a href="https://roaming.safaricom.co.ke/index.php/home" target="_blank" rel="noopener noreferrer">Roaming Services</a></li><li class="item-437"><a href="https://roaming.safaricom.co.ke/index.php/international-calling-rates" target="_blank" rel="noopener noreferrer">International Calling Rates</a></li><li class="item-1562"><a href="/personal/voice/volte" >VoLTE</a></li><li class="item-1823"><a href="/personal/voice/voice-promotions-offers" >Promotions &amp; Offers </a></li><li class="item-610"><a href="/personal/voice/voice-security" >Voice Security </a></li></ul></li><li class="item-110 has-children parent"><a href="/personal/data/data-tariffs" >Data</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-118"><a href="/personal/data/getting-started-data" >Getting Started</a></li><li class="item-120"><a href="/personal/data/data-tariffs" >Tariffs</a></li><li class="item-590"><a href="/personal/data/monthly-plans-data" >Monthly Plans</a></li><li class="item-116"><a href="https://roaming.safaricom.co.ke/index.php/home" target="_blank" rel="noopener noreferrer">Roaming Services</a></li><li class="item-121"><a href="/personal/data/data-promotions-offers" >Promotions &amp; Offers</a></li><li class="item-2060"><a href="/personal/data/tips-and-tricks" >Tips and Tricks </a></li></ul></li><li class="item-212 has-children parent"><a href="/personal/m-pesa" >M-PESA</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-217"><a href="/personal/m-pesa/getting-started" >Getting Started</a></li><li class="item-622"><a href="/personal/m-pesa/mpesa-charges" >M-PESA Charges</a></li><li class="item-213"><a href="/personal/m-pesa/lipa-na-m-pesa" >Lipa na M-PESA</a></li><li class="item-214"><a href="/personal/m-pesa/credit-and-savings" >Credit and Savings</a></li><li class="item-282"><a href="/personal/m-pesa/do-more-with-m-pesa" >Do More With M-PESA</a></li><li class="item-1825"><a href="https://www.safaricom.co.ke/mpesaglobalpay/" onclick="window.open(this.href, 'targetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,'); return false;">M-PESA GlobalPay with VISA</a></li><li class="item-216"><a href="/personal/m-pesa/m-pesa-legal" >M-PESA Legal</a></li><li class="item-215"><a href="/personal/m-pesa/promotions-and-offers" >Promotions and Offers</a></li><li class="item-1586"><a href="/personal/m-pesa/m-pesa-journey" >M-PESA Journey</a></li></ul></li><li class="item-112"><a href="https://internet.safaricom.co.ke/home#get-connected" target="_blank" rel="noopener noreferrer">Home Fibre</a></li><li class="item-113"><a href="/personal/value-added-services" >Value Added Services</a></li><li class="item-104"><a href="/personal/buy-a-device" >Buy A Device</a></li></ul>
+
+                                                                                                                                                                            </nav>
+                                    </div>
+                                                                                      <div class="header-search-form-two d-block d-lg-none mobile-search">
+                                    <form action="#" class="search-form-top-active">
+                                        <div class="search-icon" id="search-overlay-trigger2"> <a href="javascript:void(0)"> <i class="fa fa-search"></i> </a> </div>
+                                    </form>
+                                </div>
+                                <a href="javascript:void(0)" class="btn-read-more help-menu help-mobile" data-toggle="modal" data-target="#exampleModal">Help</a>
+                                <div class="header-search-form-two d-block d-lg-none mobile-search d-sm-none">
+                                    <form action="#" class="search-form-top-active">
+                                        <div class="search-icon" id="search-overlay">
+                                            <a href="javascript:void(0)">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                                    
+                                    <!-- mobile menu -->
+                                    <div class="mobile-navigation-icon white-md-icon d-block d-lg-none" id="mobile-menu-trigger"> <i></i> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  End of header area  ====================-->
+
+
+        
+                    
+
+
+<section class="header-video" style="background: url(/images/Downloads/SAFARICOM_CALENDAR_2023_jan.jpg)">
+    <!-- YouTube Background-Wrapper -->
+    <div class="yt_bg_wrapper">
+        <div class="yt_bg">
+            <!-- Note: iFrame has to be higher than the actual wrapper -->
+            <iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/XhmDtk6Fn2E?controls=0&autoplay=1&mute=1&loop=1&playlist=XhmDtk6Fn2E&rel=0&showinfo=0&disablekb=1" frameborder="0" allow="autoplay; encrypted-media" data-scaling="true" data-format="16:9"></iframe>
+        </div>
+        <div class="yt_overlay">
+            <div class="yt_overlay_inner">
+                <div class="container">
+                    <div class="black_bg_wrapper">
+                        <div class="text_block">
+                            <h1>The Great Baobab tree of Mnarani is a #PlaceOfHope in Kenya that holds great cultural and spiritual significance in the community around it. #Safaricom2023Calendar</h1>                                                            <!--https://www.safaricom.co.ke/about/about-safaricom/who-we-are/our-story -->
+                                <a class="btn btn-border" href="https://www.safaricom.co.ke/placesofhope/month/january-2023" target="_blank" rel="noopener noreferrer">  Learn More</a>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+                            
+
+<div class="custom"  >
+	<section class="card-area">
+<div class="container card-container">
+<div class="block-title-2 text-center">
+<h2>Popular Links</h2>
+</div>
+<div class="row">
+<div class="col-lg-11 col-xl-10 mx-auto">
+<div class="row owl-carousel owl-theme quicklinks">
+<div class="card-box">
+<h3>Voice</h3>
+<ul class="card-list">
+<li><a href="/personal/voice/voice-tariffs" target="_blank" rel="noopener noreferrer">Post-Pay Packages </a></li>
+<li><a href="/personal/value-added-services/information-services/zuri" target="_blank" rel="noopener noreferrer">Zuri </a></li>
+<li><a href="/personal/voice/voice-tariffs" target="_blank" rel="noopener noreferrer">Voice Tariffs </a></li>
+<li><a href="https://safaricom.com/bundles/tunukiwa" target="_blank" rel="noopener noreferrer">Tunukiwa Minutes </a></li>
+</ul>
+</div>
+<div class="card-box">
+<h3>Internet</h3>
+<ul class="card-list">
+<li><a href="/personal/data/getting-started-data" target="_blank" rel="noopener noreferrer">Data Bundles </a></li>
+<li><a href="https://internet.safaricom.co.ke/home#get-connected" target="_blank" rel="noopener noreferrer">Home Fibre </a></li>
+<li><a href="/media-center-landing/frequently-asked-questions/free-facebook" target="_blank" rel="noopener noreferrer">Free Facebook </a></li>
+<li><a href="/media-center-landing/frequently-asked-questions/data-roaming-share-when-there" target="_blank" rel="noopener noreferrer">Safaricom Roaming Data Bundles </a></li>
+</ul>
+</div>
+<div class="card-box">
+<h3>M-PESA</h3>
+<ul class="card-list">
+<li><a href="/personal/m-pesa/getting-started" target="_blank" rel="noopener noreferrer">M-PESA </a></li>
+<li><a href="/personal/m-pesa/credit-and-savings/fuliza" target="_blank" rel="noopener noreferrer">How to Fuliza </a></li>
+<li><a href="/media-center-landing/frequently-asked-questions/m-pesa-paypal-service" target="_blank" rel="noopener noreferrer">Paypal M-PESA </a></li>
+<li><a href="/personal/m-pesa/mpesa-charges" target="_blank" rel="noopener noreferrer">M-PESA Withdrawal Charges 2022 </a></li>
+</ul>
+</div>
+<div class="card-box">
+<h3>Other Services</h3>
+<ul class="card-list">
+<li><a href="https://www.safaricom.co.ke/media-center-landing/terms-and-conditions/safaricom-lipa-na-bonga-point-service" target="_blank" rel="noopener noreferrer">Lipa na Bonga Point </a></li>
+<li><a href="/personal/value-added-services/other-services/lipa-mdogo-mdogo" target="_blank" rel="noopener noreferrer">Lipa Mdogo Mdogo Phones </a></li>
+<li><a href="/mpesaglobalpay/" target="_blank" rel="noopener noreferrer">M-PESA GlobalPay </a></li>
+<li><a href="/personal/buy-a-device" target="_blank" rel="noopener noreferrer">Tecno Camon 19 </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+
+                            
+
+<div class="custom"  >
+	<section class="whats-new section bg-grey p-60">
+<div class="container">
+<div class="block-title-2 text-left">
+<h2>What’s new</h2>
+<p>Find out more about our latest innovative products and services made for you</p>
+</div>
+<div class="new-slider">
+<div class="autowidth slidecards slidenav-left owl-carousel owl-theme">
+<div class="slider-box ls-large"><img class="card-img-top lazy" alt="safaricom app" data-src="images/Downloads/go-monthly.jpg" src="/images/Downloads/go-monthly.jpg" caption="false" width="508" height="250" />
+<div class="promoslider-content">
+<h2 class="card-title">Go Monthly Plan</h2>
+<p>This offer gives you the best value and control on your monthly browsing, calling and texting needs. You have the freedom to select a plan that works for you.</p>
+<button class="btn-read-more white"><a href="/personal/data/monthly-plans-data" target="_blank" rel="noopener noreferrer">Explore Plans</a> </button></div>
+</div>
+<div class="slider-box ls-small"><img class="card-img-top lazy" alt="Card image cap" data-src="/images/e-sim-card-new.png" />
+<div class="card-body white-holder">
+<h2 class="card-title">One Voice Tariff</h2>
+<h4>Get 50% airtime bonus with every top-up</h4>
+<p class="card-text">Dial *544# to get started</p>
+<a class="btn-read-more" href="/personal/voice/voice-tariffs">See Tarrifs</a></div>
+</div>
+<div class="slider-box form-card theme-card ls-small">
+<h3>Find out how much talktime you can get with your budget</h3>
+<div class="form-group" data-children-count="1"><input id="sms_select" class="form-control" type="number" placeholder="Enter Amount" /></div>
+<div class="form-group"><button class="btn btn-primary btn-green" disabled="disabled">Get rates</button></div>
+<div class="form-group" data-children-count="1"><input id="minutes_area" class="form-control" disabled="disabled" type="text" placeholder="Your Talktime: 0.0" /></div>
+<a id="buy-now" class="btn-read-more disabled" href="https://safaricom.com/bundles" target="_blank" rel="noopener noreferrer">Buy Now</a></div>
+</div>
+</div>
+</div>
+</section></div>
+
+                            
+
+<div class="custom"  >
+	<section class="fibre slidersection bg-white p-60">
+<div class="container">
+<div class="block-title-2 text-left">
+<h2>Internet Connection For</h2>
+</div>
+<div class="row align-items-center justify-content-center">
+<div class="col-lg-12">
+<div class="courselBlock-area">
+<ul class="nav nav-tabs">
+<li class="nav-item"><a class="nav-link active" href="#tabs-1" data-toggle="tab">My Phone</a></li>
+<li class="nav-item"><a class="nav-link" href="#tabs-2" data-toggle="tab">My Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#tabs-3" data-toggle="tab">My Business</a></li>
+</ul>
+<!-- Tab panes -->
+<div class="tab-content">
+<div id="tabs-1" class="tab-pane active">
+<div class="card-slide owl-carousel owl-theme slidenav-left">
+<div class="slider-box"><img class="lazy" alt="" data-src="images/banners/data1.jpg" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Data</h2>
+<div class="results arrow">
+<ol>
+<li><a href="/personal/data/data-tariffs">Prepay Service</a></li>
+<li><a href="/personal/data/data-tariffs">Postpay Service</a></li>
+<li><a href="/personal/data/data-promotions-offers">Promotions &amp; Offers</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="slider-box"><img class="lazy" alt="" data-src="/images/1-3.png" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Offers</h2>
+<div class="results arrow">
+<ol>
+<li><a href="https://www.safaricom.co.ke/youtubebundles/" target="_blank" rel="noopener noreferrer">YouTube Bundles Promo </a></li>
+<li><a href="/personal/data/data-tariffs">Angaza Bundles</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="slider-box form-card theme-card">
+<h3>Find out how much Data you can get with your budget</h3>
+<div class="form-group" data-children-count="1"><input id="minutes_input_homepage" class="form-control" type="text" placeholder="Enter amount" /></div>
+<div class="form-group"><button id="get_minutes2" class="btn btn-primary btn-green" disabled="disabled">Get rates</button></div>
+<div class="form-group" data-children-count="1"><input id="minutes_area2" class="form-control" disabled="disabled" type="text" placeholder="Your Data: 0.0Mbs" /><a id="buy-data-now" class="btn-read-more disabled" href="https://safaricom.com/bundles" target="_blank" rel="noopener noreferrer">Buy Now</a></div>
+</div>
+</div>
+</div>
+<div id="tabs-2" class="tab-pane">
+<div class="card-slides slidenav-left owl-carousel owl-theme slidenav-left"><!-- <div class="slider-box"><img class="lazy" alt="" data-src="images/banners/Home_Fibre.jpg" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Home Fibre</h2>
+<div class="results arrow">
+<ol>
+<li><a href="/../home/home-fibre/" target="_blank" rel="noopener noreferrer">5MBPS Bronze Package</a></li>
+<li><a href="/../home/home-fibre/" target="_blank" rel="noopener noreferrer">10MBPS Silver Package</a></li>
+<li><a href="/../home/home-fibre/" target="_blank" rel="noopener noreferrer">20MBPS Gold Package</a></li>
+</ol>
+</div>
+</div>
+</div> --> <!-- <div class="slider-box"><img class="lazy" alt="" data-src="images/banners/blog-2.jpg" /><br /> -->
+<div class="slider-box"><img class="lazy" alt="" data-src="images/MicrosoftTeams-image1.png" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Home Internet Access</h2>
+<div class="results arrow"><!-- <li><a href="/../home/entertainment/" target="_blank" rel="noopener noreferrer">Ematic Box </a></li>
+<li><a href="/../home/entertainment/" target="_blank" rel="noopener noreferrer">Safaricom Gigabox</a></li>
+<li><a href="/../home/offers/" target="_blank" rel="noopener noreferrer">Offers</a></li> -->
+<ol>
+<li><a href="https://internet.safaricom.co.ke/home#get-connected" target="_blank" rel="noopener noreferrer">Get Connected </a></li>
+<li><a href="https://internet.safaricom.co.ke/home#packages" target="_blank" rel="noopener noreferrer">Explore Packages </a></li>
+</ol>
+</div>
+</div>
+</div>
+<!-- <div class="slider-box"><img class="lazy" alt="" data-src="images/banners/Secure_Net.jpg" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Secure Net</h2>
+<div class="results arrow">
+<ol>
+<li><a href="/../home/secure-net/" target="_blank" rel="noopener noreferrer">Parental Control</a></li>
+<li><a href="/../home/secure-net/" target="_blank" rel="noopener noreferrer">Quiet Time</a></li>
+<li><a href="/../home/secure-net/" target="_blank" rel="noopener noreferrer">Web Filter</a></li>
+</ol>
+</div>
+</div>
+</div> --></div>
+</div>
+<div id="tabs-3" class="tab-pane">
+<div class="card-slides slidenav-left owl-carousel owl-theme slidenav-left">
+<div class="slider-box"><img class="lazy" alt="" data-src="images/easybundles.jpg" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Easy Bundles</h2>
+<div class="results arrow">
+<ol>
+<li><a href="https://www.safaricom.co.ke/media-center-landing/frequently-asked-questions/easy-bundle" target="_blank" rel="noopener noreferrer">Easy 30</a></li>
+<li><a href="https://www.safaricom.co.ke/media-center-landing/frequently-asked-questions/easy-bundle" target="_blank" rel="noopener noreferrer">Easy 50</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="slider-box"><img class="lazy" alt="" data-src="images/internetforbusiness.jpg" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Internet for business 4G</h2>
+<div class="results arrow">
+<ol>
+<li><a href="https://www.business.safaricom.co.ke/products/60-internet-for-business-4g" target="_blank" rel="noopener noreferrer">3MBPs</a></li>
+<li><a href="https://www.business.safaricom.co.ke/products/60-internet-for-business-4g" target="_blank" rel="noopener noreferrer">5Mbps</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="slider-box"><img class="lazy" alt="" data-src="images/corporatevalue.jpg" /><br />
+<div class="card-body white-holder">
+<h2 class="card-title">Corporate Value packs</h2>
+<div class="results arrow">
+<ol>
+<li><a href="https://www.business.safaricom.co.ke/products/12-fiber-internet-for-business" target="_blank" rel="noopener noreferrer">Fiber internet for business</a></li>
+<li><a href="https://www.business.safaricom.co.ke/products/11-wireless-internet-for-business" target="_blank" rel="noopener noreferrer">Wireless internet for business</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+
+                            
+
+<div class="custom"  >
+	<section class="fibre mpesa grey p-60">
+<div class="container">
+<div class="block-title-2 text-left">
+<h2>M-PESA</h2>
+<p>Send, receive and access money wherever you are.</p>
+</div>
+<div class="new-slider">
+<div class="card-slides owl-carousel owl-theme slidenav-left">
+<div class="slider-box"><img class="card-img-top lazy" alt="Card image cap" data-src="images/fulizahomepage.jpg" />
+<div class="card-body white-holder">
+<h2 class="card-title">Fuliza</h2>
+<h4>Complete your transactions even with insufficient funds</h4>
+<p class="card-text">Dial *234# to get started</p>
+<a class="btn-read-more" href="/personal/m-pesa/credit-and-savings/fuliza" target="_blank" rel="noopener noreferrer">About Fuliza</a></div>
+</div>
+<div class="slider-box"><img class="card-img-top lazy" alt="Card image cap" data-src="images/pochi.jpg" />
+<div class="card-body white-holder">
+<h2 class="card-title">Pochi La Biashara</h2>
+<h4>Receive and separate business funds from personal funds</h4>
+<p class="card-text">Dial *334# to get started</p>
+<a class="btn-read-more" href="/personal/m-pesa/lipa-na-m-pesa/pochi-la-biashara" target="_blank" rel="noopener noreferrer">Learn More</a></div>
+</div>
+<div class="slider-box form-card theme-card">
+<h3 class="card-title">Find out just how much transacting with M-PESA will cost you</h3>
+<form data-children-count="2"><select id="mpesa_rates_type" class="form-control">
+<option value="1">Withdraw from Agent</option>
+<option value="2">Withdraw from Atm</option>
+<option value="3">Transfer to M-PESA Users, Pochi La Biashara &amp; Business Till to Customers</option>
+<option value="4">Transfer to Other Registered Mobile Money Users</option>
+<option value="5">Transfer to Unregistered Users</option>
+</select><select id="mpesa_rates_select" class="form-control"></select><select id="mpesa_rates_atm_select" class="form-control hidden"></select><button class="btn btn-primary btn-green" disabled="disabled">Get Rates</button></form>
+<div id="results" class="results">
+<ol>
+<li id="bundle_append_area">Ksh: 0</li>
+</ol>
+</div>
+</div>
+<div class="slider-box"><img class="lazy" alt="" data-src="images/lipa-na-mpesa.jpg" />
+<div class="card-body white-holder">
+<h2 class="card-title">Lipa Na M-PESA</h2>
+<h4>You can buy goods and pay through your phone</h4>
+<p class="card-text">Get started now</p>
+<a class="btn-read-more" href="https://m-pesaforbusiness.co.ke/LNM/" target="_blank" rel="noopener noreferrer">Apply For Till Number</a></div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+
+                            
+<section class="fibre business bg-white p-30">
+  <div class="container">
+    <div class="block-title-2 text-left">
+      <h2>Business Solutions</h2>
+      <p>We seek to provide cutting edge solutions for your business needs</p>
+    </div>
+    <div class="new-slider">
+      <div class="card-slides slidenav-left owl-carousel owl-theme">
+
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/banners/Home_Fibre2.jpg" alt="Internet For Business">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Internet For Business</h2>
+              <h4>Connect your business to the world with reliable and affordable internet</h4>
+<p class="card-text">Simple, Transparent and Honest.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="https://www.business.safaricom.co.ke/products?category=7-internet-for-business" class="btn-read-more" target="_blank">Internet  Business</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/cloud.jpg" alt="Cloud Solutions">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Cloud Solutions</h2>
+              <h4>Put your business ahead of the competition with technology and the latest online services</h4>
+<p class="card-text">Simple, Transparent and Honest.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="https://www.business.safaricom.co.ke/products?category=2-Cloud%20Solutions" class="btn-read-more" target="_blank">Cloud Services</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/businesspayments.jpg" alt="Business till">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Business till</h2>
+              <h4>Collect payments easily with no time limitations through M-PESA</h4>
+<p class="card-text">Simple, Transparent and Honest.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="https://www.business.safaricom.co.ke/products/300-m-pesa-business-till" class="btn-read-more" target="_blank">M-PESA business till</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/banners/Mobile_Payments1.png" alt="Shiriki plan for business">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Shiriki plan for business</h2>
+              <h4>Get affordable internet and calling rates for your small or medium sized business</h4>
+<p class="card-text">Simple, Transparent and Honest.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="https://www.business.safaricom.co.ke/products/9-shiriki-plan-for-business" class="btn-read-more" target="_blank">Mobile Solutions</a>
+
+                          </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+                            
+
+<div class="custom"  >
+	<section class="fibre purpose grey p-60">
+<div class="container">
+<div class="block-title-2 text-left">
+<h2>Our Purpose</h2>
+<p>We seek to create opportunities for Kenyans to be a part of our growth story by empowering them with the right tools for economic growth.</p>
+<p> </p>
+</div>
+<div class="new-slider">
+<div class="purpose card-slides slidenav-left owl-carousel owl-theme">
+<div class="slider-box"><img class="card-img-top lazy" alt="Card image cap" data-src="images/whoweare.jpg" />
+<div class="card-body white-holder">
+<h2 class="card-title">Who we are</h2>
+<div class="results arrow">
+<ol>
+<li><a title="Newsroom" href="/about/who-we-are/our-story" target="_blank" rel="noopener noreferrer">Our Story</a></li>
+<li><a href="/about/who-we-are/leadership" target="_blank" rel="noopener noreferrer">Leadership</a></li>
+<li><a href="/about/who-we-are/our-journey" target="_blank" rel="noopener noreferrer">Our Journey</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="slider-box"><img class="card-img-top lazy" alt="Card image cap" data-src="images/impact1.jpg" />
+<div class="card-body white-holder">
+<h2 class="card-title">Our Impact</h2>
+<div class="results arrow">
+<ol>
+<li><a href="https://www.safaricomfoundation.org/" target="_blank" rel="noopener noreferrer">Safaricom Foundation</a></li>
+<li><a href="https://m-pesafoundation.org/" target="_blank" rel="noopener noreferrer">M-PESA Foundation</a></li>
+<li><a href="/about/sustainability" target="_blank" rel="noopener noreferrer">Sustainability</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="slider-box"><img class="card-img-top lazy" alt="Card image cap" data-src="images/golftour.jpg" />
+<div class="card-body white-holder">
+<h2 class="card-title">Our Brand</h2>
+<div class="results arrow">
+<ol>
+<li><a href="/about/brand-toolkit" target="_blank" rel="noopener noreferrer">Brand toolkit</a></li>
+<li><a href="/about/brand-toolkit/brand-assets-toolkit" target="_blank" rel="noopener noreferrer">Brand Assets</a></li>
+<li><a href="/about/brand-toolkit/campaign" target="_blank" rel="noopener noreferrer">Brand Campaigns</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+
+                            
+<section class="fibre business bg-white p-60">
+  <div class="container">
+    <div class="block-title-2 text-left">
+      <h2>Join us</h2>
+      <p><p>When we come together, we create amazing opportunities</p></p>
+    </div>
+    <div class="new-slider">
+      <div class="card-slides slidenav-left owl-carousel owl-theme">
+      
+                  <div class="slider-box"> <img class="card-img-top lazy" data-src="images/customer.jpg" alt="Card image cap">
+            <div class="card-body white-holder">
+              <h2 class="card-title">New customer </h2>
+              <p>Are you looking to join the fastest, most reliable and strongest network? Get started on your journey with us in quick and easily actionable steps.</p>
+              <a href="/about/join-safaricom/new-customer" class="btn-read-more" target="_blank">Explore</a>
+            </div>
+          </div>
+      
+                  <div class="slider-box"> <img class="card-img-top lazy" data-src="images/suppliers.jpg" alt="Card image cap">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Suppliers </h2>
+              <p>We are looking to partner with competent and efficient individuals and businesses. All our suppliers are qualified through a transparent pre-qualification process prior to engagement.</p>
+              <a href="/about/join-safaricom/our-suppliers" class="btn-read-more" target="_blank">Explore</a>
+            </div>
+          </div>
+      
+                  <div class="slider-box"> <img class="card-img-top lazy" data-src="images/careers.jpg" alt="Card image cap">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Careers </h2>
+              <p>We offer a wide range of opportunities within our diversified network. Visit our online portal to search and apply for all the latest jobs in our company. </p>              <a href="https://www.safaricom.co.ke/careers/" class="btn-read-more" target="_blank">Explore</a>
+            </div>
+          </div>
+       
+        
+    </div>
+  </div>
+</section>
+                
+        
+                                
+                                            
+<section class="fibre business bg-white p-30">
+  <div class="container">
+    <div class="block-title-2 text-left">
+      <h2>Investor relations</h2>
+      <p>Get all the information you need about our year on year business performance</p>
+    </div>
+    <div class="new-slider">
+      <div class="card-slides slidenav-left owl-carousel owl-theme">
+
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/reports1.jpg" alt="Reports">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Reports</h2>
+              <p>Explore our year on year brand performance based on our customer-obsession mission, as presented in our annual financial reports.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="/investor-relations-landing/reports/annual-reports" class="btn-read-more" target="_blank">Read more</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/stocks1.jpg" alt="Stocks">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Stocks</h2>
+              <p>Have a look at the latest share price performance of our business, dividend payments and extensive analyst coverage.  </p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="/investor-relations-landing/stocks/shares" class="btn-read-more" target="_blank">Read more</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/agm1.jpg" alt="Annual General Meetings">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Annual General Meetings</h2>
+              <p>Keep up to date with our general notices, resolutions and minutes as well as our annual general meeetings' calendar of events.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="/investor-relations-landing/meetings" class="btn-read-more" target="_blank">Read more</a>
+
+                          </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section class="fibre business bg-white p-30">
+  <div class="container">
+    <div class="block-title-2 text-left">
+      <h2>Fraud Awareness</h2>
+      <p>Beware of fraudsters and remain vigilant by understanding the types of fraud and the tips on how to protect yourself.</p>
+    </div>
+    <div class="new-slider">
+      <div class="card-slides slidenav-left owl-carousel owl-theme">
+
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/mpesafraud1.jpg" alt="M-PESA Fraud">
+            <div class="card-body white-holder">
+              <h2 class="card-title">M-PESA Fraud</h2>
+              <p>Fraudsters target your M-PESA account balance through ATM, messages, USSD, etc</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="/fraud-awareness/m-pesa-fraud" class="btn-read-more" target="_blank">Learn more</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/Impersonating_Safaricom_staff.jpg" alt="Impersonation">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Impersonation</h2>
+              <p>People pretend to be who they are not with the intent of defrauding unsuspecting victims.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="/fraud-awareness/impersonation" class="btn-read-more" target="_blank">Learn more</a>
+
+                          </div>
+          </div>
+        
+          
+          <div class="slider-box">
+            <img class="card-img-top lazy" data-src="images/fakesocials.jpg" alt="Fake social media accounts">
+            <div class="card-body white-holder">
+              <h2 class="card-title">Fake social media accounts</h2>
+              <p>Beware of fake social media handles that take on similar identity to the official channels.</p>              <!-- <button class="greenbtn">
+              <a href="#">Buy Now</a>
+              </button> -->
+                              <a href="/fraud-awareness/hoax-sms" class="btn-read-more" target="_blank">Learn more</a>
+
+                          </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section class="fibre shop bg-grey p-60 inside-shop">
+
+    <div class="container">
+
+    <div class="block-title-2 text-left">
+
+            <h2>Buy a device</h2>
+
+            <p>Find your dream phone and accessories at unbeatable prices</p>
+
+            <a class="btn-read-more btn-right" href="/personal/buy-a-device">Explore</a></div>
+
+        <div class="new-slider">
+
+            <div class="card-slides  slidenav-left owl-carousel owl-theme">
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/infinix-hot12.jpg" alt="Infinix Hot 12 Play" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Infinix Hot 12 Play</h3>
+
+                                <h2 class="card-title"> Ksh 17,599</h2>
+
+                                <p class="card-text">6000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/infinix-hot-12-play ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/tecno-spark-8p.png" alt="Tecno Spark 8P" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Tecno Spark 8P</h3>
+
+                                <h2 class="card-title"> Ksh 18,299</h2>
+
+                                <p class="card-text">5000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/tecno-spark-8p ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/Camon17.png" alt="TECNO Camon 17" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">TECNO Camon 17</h3>
+
+                                <h2 class="card-title"> Ksh 21,899</h2>
+
+                                <p class="card-text">5000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/tecno-camon-17 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/G21.png" alt="Nokia G21" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Nokia G21</h3>
+
+                                <h2 class="card-title"> Ksh 23,499</h2>
+
+                                <p class="card-text">Battery capacity 5050mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/nokia-g21 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/C21.png" alt="Nokia C21 Plus" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Nokia C21 Plus</h3>
+
+                                <h2 class="card-title"> 10,000 points plus Ksh 14,999</h2>
+
+                                <p class="card-text">Battery 4000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/nokia-c21-plus ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/A13.png" alt="Samsung Galaxy A13" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Samsung Galaxy A13</h3>
+
+                                <h2 class="card-title"> 11,000 points plus Ksh 15,999</h2>
+
+                                <p class="card-text">Battery capacity 5000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/samsung-galaxy-a13 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/A16.png" alt="Oppo A16k" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Oppo A16k</h3>
+
+                                <h2 class="card-title"> 5,000 points plus Ksh 13,499</h2>
+
+                                <p class="card-text">Battery 4230mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/oppo-a16k ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/Spark7.png" alt="TECNO Spark 7" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">TECNO Spark 7</h3>
+
+                                <h2 class="card-title"> Ksh.11,999</h2>
+
+                                <p class="card-text">Battery  5000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/tecno-spark-7 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/Iphone13.png" alt="iPhone 13" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">iPhone 13</h3>
+
+                                <h2 class="card-title"> Ksh 143,999</h2>
+
+                                <p class="card-text">Battery capacity 3240mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/iphone-13 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/Spark6.png" alt="Tecno Spark 6 Go" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Tecno Spark 6 Go</h3>
+
+                                <h2 class="card-title"> 8,000 points Plus Ksh. 8,899</h2>
+
+                                <p class="card-text">Battery capacity 5000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/tecno-spark-6-go ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/new-phone-tecno.png" alt="Tecno Camon 19" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Tecno Camon 19</h3>
+
+                                <h2 class="card-title"> Ksh. 10,000</h2>
+
+                                <p class="card-text">Ksh 24,499 - Pre Order</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/tecno-camon-19 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/Oraimo-Earphones-OEP.png" alt="Oraimo Earphones OEP" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Oraimo Earphones OEP</h3>
+
+                                <h2 class="card-title"> Ksh 379</h2>
+
+                                <p class="card-text">Frequency Response: 20-2000Hz</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/oraimo-earphones-oep ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/Apple-cable.png" alt="Apple Lightning To USB Cable 1M" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Apple Lightning To USB Cable 1M</h3>
+
+                                <h2 class="card-title"> Ksh 3,299</h2>
+
+                                <p class="card-text">Compatible with gadgets with USB Port </p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/apple-lightning-to-usb-cable-1m ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/adapter.png" alt="Samsung Travel Adapter 25W" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Samsung Travel Adapter 25W</h3>
+
+                                <h2 class="card-title"> Ksh. 5,199</h2>
+
+                                <p class="card-text">Input Voltage : 100-240 V</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/samsung-travel-adapter-25w ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/riversong-infinity.png" alt="Riversong Infinity 05 3 in-1 Cable" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Riversong Infinity 05 3 in-1 Cable</h3>
+
+                                <h2 class="card-title"> Ksh 599</h2>
+
+                                <p class="card-text">3A Fast charging</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/riversong-infinity-05-3-in-1-cable ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/osw-23n.png" alt="Oraimo Smartwatch OSW 23N" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Oraimo Smartwatch OSW 23N</h3>
+
+                                <h2 class="card-title"> Ksh 7,499</h2>
+
+                                <p class="card-text">Battery capacity 200mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/oraimo-smartwatch-osw-23n ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/vision-speaker.png" alt="Vision Vibe Level Up Speaker" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Vision Vibe Level Up Speaker</h3>
+
+                                <h2 class="card-title"> 2,000 points plus Ksh 3,399</h2>
+
+                                <p class="card-text">Battery capacity 3.7V/2000mAH</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/vision-vibe-level-up-speaker ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/vibe-pods.png" alt="Vision Plus Vibe Pods" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Vision Plus Vibe Pods</h3>
+
+                                <h2 class="card-title"> 1,000 points plus Ksh 1,899</h2>
+
+                                <p class="card-text">Earphone battery: 40mAH</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/vision-plus-vibe-pods ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/sonyearphones.png" alt="Sony Earphones MDR" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Sony Earphones MDR</h3>
+
+                                <h2 class="card-title"> 500 points plus Ksh 749</h2>
+
+                                <p class="card-text">Battery capacity 350mAh - Up to 10 hours playtime</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/sony-earphones-mdr ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/osw-20.png" alt="Oraimo Smartwatch OSW" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Oraimo Smartwatch OSW</h3>
+
+                                <h2 class="card-title"> 2,000 points plus Ksh 4,399</h2>
+
+                                <p class="card-text">Battery Capacity: 180mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/oraimo-smartwatch-osw ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/Downloads/oraimopowerbank.png" alt="Oraimo Powerbank OPB" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Oraimo Powerbank OPB</h3>
+
+                                <h2 class="card-title"> Ksh 2,099</h2>
+
+                                <p class="card-text">Battery capacity 10,000mAh</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/oraimo-powerbank-opb ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/banners/flash.png" alt="Oraimo USB 2.0 16GB OFD" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Oraimo USB 2.0 16GB OFD</h3>
+
+                                <h2 class="card-title"> Ksh. 899</h2>
+
+                                <p class="card-text">1 year warranty</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/oraimo-usb-2-0-16gb-ofd ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+                        <div class="slider-box small shops note-10"> <img class="card-img-top" src="/images/banners/mifi.png" alt="Huawei MiFi E5576" width="width:70%">
+
+                            <div class="card-body white-holder">
+
+                                <h3 class="title">Huawei MiFi E5576</h3>
+
+                                <h2 class="card-title"> Ksh. 4,699</h2>
+
+                                <p class="card-text">4G High speed mobile hotspot</p>
+
+                                
+
+
+                                    <a class="btn-read-more" href="https://www.safaricom.co.ke/personal/buy-a-device/huawei-mifi-e5576 ">View Details</a>
+
+
+
+
+
+                                
+
+
+                                <a href="/customer-service " class="read-more">Find a shop</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                
+
+
+
+
+            </div>
+
+        </div>
+
+</section>
+
+
+
+                        
+        
+        
+        
+        
+        
+        
+        
+        
+                                    
+
+<div class="custom"  >
+	<section id="app-section" class="bg-white helpful p-30 text-center">
+<div class="container">
+<h4>Was this information helpful?<a href="#" data-toggle="modal" data-target="#helpfull"> If not tell us how we can improve <img src="/images/bad.png" alt="safaricom images" /></a><a href="#"><img id="image_good" src="/images/good.png" alt="safaricom images" /></a></h4>
+</div>
+</section>
+<section class="green p-30 mobile-app">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-12 col-sm-7 col-lg-7">
+<h4>Manage all your services in one App</h4>
+</div>
+<div class="col-12 col-sm-5 col-lg-5 apps-icon"><a title="app store" href="https://apps.apple.com/ke/app/mysafaricom-app/id1481438147" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/apple.png" alt="safaricom app" /> </a> <a title="app store" href="https://play.google.com/store/apps/details?id=com.safaricom.mysafaricom&amp;hl=en&amp;gl=US" target="_blank" rel="noopener noreferrer"> <img src="/images/googleapp.png" alt="safaricom app" /> </a></div>
+</div>
+</div>
+</section></div>
+
+                            <section class="zuri whatsnew">
+    <div class="say-hello">
+      <a class="close" id="zuri-btn">
+        <span aria-hidden="true">×</span>
+      </a>
+      <a title="Zuri"
+        href="https://api.whatsapp.com/send/?phone=254722000100&amp;text=%5BKE%5D+Hi+Zuri&amp;app_absent=0" target="_blank" rel="nofollow noopener noreferrer">Hi I am zuri <img
+          class="animate__animated animate__tada animate__infinite animate__slower" src="/images/hello.png"
+          alt="say hello" /> , how can I help you today?</a>
+    </div>
+    <a title="modal" href="https://api.whatsapp.com/send/?phone=254722000100&amp;text=%5BKE%5D+Hi+Zuri&amp;app_absent=0" target="_blank" rel="nofollow noopener noreferrer">
+      <img src="/images/zuri.png" alt="Safaricom Neo">
+    </a>
+  </section>
+
+            
+
+        
+        <!-- footer -->
+        <footer class="footer-main">
+            <div class="footer-upper-two pt-100 pb-80">
+                <div class="container">
+
+                    
+
+                    <div class="row">
+                        
+
+<div class="custom"  >
+	<p> </p>
+<!-- Modal -->
+<div id="exampleModal" class="modal fade help-menu-modal" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header"><button class="close" type="button" data-dismiss="modal"> × </button></div>
+<div class="modal-body">
+<ul>
+<li><a href="/customer-service" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/find-shop.png" alt="safaricom" /> Find a Shop </a></li>
+<li><a href="/about/contact-us"> <img src="/images/icons/contact.png" alt="safaricom" target="_blank" /> Contact Us </a></li>
+</ul>
+</div>
+<div class="modal-footer"><span>Follow us on social</span>
+<ul>
+<li class="social"><a href="https://www.facebook.com/SafaricomPLC/" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/fb.png" alt="safaricom facebook" /> </a></li>
+<li class="social"><a href="https://twitter.com/SafaricomPLC" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/twt.png" alt="safaricom twiter" /> </a></li>
+<li class="social"><a href="https://www.youtube.com/user/SafaricomOfficial" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/black-yt.png" alt="safaricom twiter" /> </a></li>
+<li class="social"><a href="https://www.instagram.com/safaricomplc_/" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/insta.png" alt="safaricom" /> </a></li>
+<li class="social"><a href="https://www.linkedin.com/company/safaricom/" target="_blank" rel="noopener noreferrer"> <img src="/images/icons/linked.png" alt="safaricom" /> </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div></div>
+
+<div class="container">
+<div class="row">
+ 
+            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-content-list footer-content-item">
+
+                <div class="footer-content-title">
+                    <h3>
+                        About Safaricom</h3>
+                </div>
+                <ul class="">
+                                                <li class="item-1784">
+                                                        <a href="https://www.safaricom.co.ke/voice-footer/voice-footer">Voice</a>
+                                                </li>
+
+                                                <li class="item-1785">
+                                                        <a href="https://www.safaricom.co.ke/voice-footer/data-footer">Data</a>
+                                                </li>
+
+                                                <li class="item-1788">
+                                                        <a href="https://www.safaricom.co.ke/home/" target="_blank">Home Fibre</a>
+                                                </li>
+
+                                    </ul>
+            </div>
+        </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-content-list footer-content-item">
+
+                <div class="footer-content-title">
+                    <h3>
+                        Business</h3>
+                </div>
+                <ul class="">
+                                                <li class="item-1805">
+                                                        <a href="https://www.business.safaricom.co.ke/products?category=121-m-pesa-for-business" target="_blank">M-PESA for business</a>
+                                                </li>
+
+                                                <li class="item-1806">
+                                                        <a href="https://www.business.safaricom.co.ke/products?category=7-internet-for-business" target="_blank">Internet for business</a>
+                                                </li>
+
+                                                <li class="item-1807">
+                                                        <a href="https://www.business.safaricom.co.ke/products?category=2-cloud-solutions" target="_blank">Cloud solutions</a>
+                                                </li>
+
+                                                <li class="item-1808">
+                                                        <a href="https://www.business.safaricom.co.ke/products?category=9-mobile-communication-solutions" target="_blank">Mobile communication solutions</a>
+                                                </li>
+
+                                                <li class="item-1809">
+                                                        <a href="https://www.business.safaricom.co.ke/products?category=6-cybersecurity-solutions" target="_blank">Cybersecurity solutions</a>
+                                                </li>
+
+                                    </ul>
+            </div>
+        </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-content-list footer-content-item">
+
+                <div class="footer-content-title">
+                    <h3>
+                        About Us</h3>
+                </div>
+                <ul class="">
+                                                <li class="item-1794">
+                                                        <a href="https://www.safaricom.co.ke/about-us-footer/careers-footer">Careers</a>
+                                                </li>
+
+                                                <li class="item-1793">
+                                                        <a href="https://www.safaricom.co.ke/about-us-footer/our-leadership-footer">Our Leadership</a>
+                                                </li>
+
+                                                <li class="item-1795">
+                                                        <a href="https://www.safaricomfoundation.org/" target="_blank">Safaricom Foundation</a>
+                                                </li>
+
+                                                <li class="item-1796">
+                                                        <a href="https://www.safaricom.co.ke/about-us-footer/customer-service-charter">Customer Service Charter</a>
+                                                </li>
+
+                                    </ul>
+            </div>
+        </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-content-list footer-content-item">
+
+                <div class="footer-content-title">
+                    <h3>
+                        Investor Relations</h3>
+                </div>
+                <ul class="">
+                                                <li class="item-1797">
+                                                        <a href="https://www.safaricom.co.ke/investor-relations-footer/analysts-coverage">Analysts Coverage</a>
+                                                </li>
+
+                                                <li class="item-1798">
+                                                        <a href="https://www.safaricom.co.ke/investor-relations-footer/investor-calendar">Investor Calendar</a>
+                                                </li>
+
+                                                <li class="item-1799">
+                                                        <a href="https://www.safaricom.co.ke/investor-relations-footer/share-price-performance">Share Price Performance</a>
+                                                </li>
+
+                                                <li class="item-1800">
+                                                        <a href="https://www.safaricom.co.ke/investor-relations-footer/annual-reports">Annual Reports</a>
+                                                </li>
+
+                                    </ul>
+            </div>
+        </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-content-list footer-content-item">
+
+                <div class="footer-content-title">
+                    <h3>
+                        FAQs</h3>
+                </div>
+                <ul class="">
+                                                <li class="item-1810">
+                                                        <a href="https://www.safaricom.co.ke/faqs-footer/fuliza">Fuliza</a>
+                                                </li>
+
+                                                <li class="item-1811">
+                                                        <a href="https://www.safaricom.co.ke/faqs-footer/m-pesa-global">M-PESA Global</a>
+                                                </li>
+
+                                                <li class="item-1813">
+                                                        <a href="https://www.safaricom.co.ke/faqs-footer/pochi-la-biashara">Pochi la biashara</a>
+                                                </li>
+
+                                                <li class="item-1814">
+                                                        <a href="https://www.safaricom.co.ke/faqs-footer/sim-registration">Sim registration</a>
+                                                </li>
+
+                                    </ul>
+            </div>
+        </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-content-list footer-content-item">
+
+                <div class="footer-content-title">
+                    <h3>
+                        More </h3>
+                </div>
+                <ul class="">
+                                                <li class="item-1804">
+                                                        <a href="/media-center-landing/terms-and-conditions" target="_blank">Terms & Conditions</a>
+                                                </li>
+
+                                                <li class="item-1803">
+                                                        <a href="/data-privacy-statements" target="_blank">Data Privacy Statement</a>
+                                                </li>
+
+                                                <li class="item-1801">
+                                                        <a href="https://www.safaricom.co.ke/more/frequently-asked-questions">Frequently Asked Questions</a>
+                                                </li>
+
+                                                <li class="item-1802">
+                                                        <a href="https://www.safaricom.co.ke/more/follow-us-on-facebook">Press Releases</a>
+                                                </li>
+
+                                    </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower bg-off-white">
+                <div class="container">
+                    <div class="row d-flex flex-wrap text-left">
+                        <div class="col-lg-12">
+
+                            
+
+<div class="custom"  >
+	<ul class="footer-action-list">
+<li><a href="https://www.facebook.com/SafaricomPLC/" target="_blank" rel="noopener noreferrer"><img src="/images/icons/facebook.png" alt="Safaricom Icons" /></a></li>
+<li><a href="https://www.youtube.com/user/SafaricomOfficial" target="_blank" rel="noopener noreferrer"><img src="/images/icons/youtube.png" alt="Safaricom Icons" /></a></li>
+<li><a href="https://www.linkedin.com/company/safaricom/" target="_blank" rel="noopener noreferrer"><img src="/images/icons/linkedin.png" alt="Safaricom Icons" /></a></li>
+<li><a href="https://www.instagram.com/safaricomplc_/" target="_blank" rel="noopener noreferrer"><img src="/images/icons/instagram.png" alt="Safaricom Icons" /></a></li>
+</ul></div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+        <!--====================  scroll top ====================-->
+        <a href="#" class="scroll-top" id="scroll-top"> <i class="arrow-top fas fa-long-arrow-alt-up"></i> <i class="arrow-bottom fas fa-long-arrow-alt-up"></i> </a>
+        <!--====================  End of scroll top  ====================-->
+
+        <!--====================  mobile menu overlay ====================-->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-overlay__inner">
+                <div class="mobile-menu-overlay__header">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-8">
+                            </div>
+                            <div class="col-md-6 col-4">
+                                <!-- mobile menu content -->
+                                <div class="mobile-menu-content text-right"> <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu-overlay__body">
+                    <nav class="offcanvas-navigation">
+                        <ul class="">
+<li class="item-182 has-children parent"><a href="/personal" >Personal</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-183 has-children parent"><a href="/personal/voice/voice-tariffs" >Voice</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-188"><a href="/personal/voice/voice-tariffs" >Tariffs</a></li><li class="item-189"><a href="/personal/voice/monthly-plans-voice" >Monthly Plans</a></li><li class="item-190"><a href="https://roaming.safaricom.co.ke/index.php/home" target="_blank" rel="noopener noreferrer">Roaming Services</a></li><li class="item-543"><a href="https://roaming.safaricom.co.ke/index.php/international-calling-rates" target="_blank" rel="noopener noreferrer">International Calling Rates</a></li><li class="item-598"><a href="/personal/voice/volte" >VoLTE</a></li><li class="item-1835"><a href="/personal/voice/voice-promotions-offers" >Promotions &amp; Offers</a></li><li class="item-1836"><a href="/personal/voice/voice-security" >Voice Security</a></li></ul></li><li class="item-184 has-children parent"><a href="/personal/data/data-tariffs" >Data</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-194"><a href="/personal/data/getting-started-data" >Getting Started</a></li><li class="item-191"><a href="/personal/data/data-tariffs" >Tariffs</a></li><li class="item-192"><a href="/personal/data/monthly-plans-data" >Monthly Plans</a></li><li class="item-193"><a href="https://roaming.safaricom.co.ke/index.php/home" target="_blank" rel="noopener noreferrer">Roaming Services</a></li><li class="item-596"><a href="/personal/data/data-promotions-offers" >Promotions Offers</a></li><li class="item-2061"><a href="/personal/data/tips-and-tricks" >Tips and Tricks</a></li></ul></li><li class="item-185 has-children parent"><a href="/personal/m-pesa" >M-PESA</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-283"><a href="/personal/m-pesa/getting-started" >Getting Started</a></li><li class="item-1842"><a href="/personal/m-pesa/getting-started/m-pesa-rates" >M-PESA Charges</a></li><li class="item-284"><a href="/personal/m-pesa/m-pesa-reversal" >M-PESA Reversal</a></li><li class="item-285"><a href="/personal/m-pesa/lipa-na-m-pesa" >Lipa na M-PESA</a></li><li class="item-286"><a href="/personal/m-pesa/credit-and-savings" >Credit and Savings</a></li><li class="item-288"><a href="/personal/m-pesa/do-more-with-m-pesa" >Do More With M-PESA</a></li><li class="item-1861"><a href="https://www.safaricom.co.ke/mpesaglobalpay/" target="_blank" rel="noopener noreferrer">M-PESA GlobalPay with VISA</a></li><li class="item-1853"><a href="/personal/m-pesa/m-pesa-legal" >M-PESA Legal</a></li><li class="item-287"><a href="/personal/m-pesa/promotions-and-offers" >Promotions and Offers</a></li><li class="item-1855"><a href="/personal/m-pesa/m-pesa-journey" >M-PESA Journey</a></li></ul></li><li class="item-186"><a href="https://internet.safaricom.co.ke/home#get-connected" target="_blank" rel="noopener noreferrer">Home Fibre</a></li><li class="item-187"><a href="/personal/value-added-services" >Value Added Services</a></li><li class="item-197"><a href="/personal/buy-a-device" >Buy A Device</a></li></ul></li><li class="item-195"><a href="https://www.business.safaricom.co.ke/" target="_blank" rel="noopener noreferrer">Business</a></li><li class="item-196 has-children parent"><a href="/about-landing" >About Us</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-449 has-children parent"><a href="/about/who-we-are" >Who we are</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-1851"><a href="/about/who-we-are/our-story" >Our Story</a></li><li class="item-450"><a href="/about/who-we-are/our-brand" >Our Brand</a></li><li class="item-1852"><a href="/about/who-we-are/leadership" >Leadership</a></li><li class="item-2054"><a href="/about/who-we-are/our-governance-policies" >Our Governance Policies </a></li><li class="item-1854"><a href="/about/who-we-are/our-journey" >Our Journey</a></li></ul></li><li class="item-1837 has-children parent"><a href="/about/community-impact" >Community Impact</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-1857"><a href="https://www.safaricomfoundation.org/" target="_blank" rel="noopener noreferrer">Safaricom Foundation</a></li><li class="item-1858"><a href="https://m-pesafoundation.org/" target="_blank" rel="noopener noreferrer">M-PESA Foundation</a></li><li class="item-1859"><a href="/about/community-impact/brand-assets" >Brand Assets</a></li><li class="item-1862"><a href="/about/community-impact/corporate-sponsorships" >Corporate Sponsorships​</a></li><li class="item-1863"><a href="/about/community-impact/social-innovation" >Social Innovation</a></li><li class="item-1840"><a href="/about/community-impact/child-online" >Child Online</a></li></ul></li><li class="item-1838 has-children parent"><a href="/about/join-safaricom" >Join Us</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-1865"><a href="/about/join-safaricom/new-customer" >New Customers</a></li><li class="item-1866"><a href="/about/join-safaricom/our-suppliers" >Suppliers</a></li><li class="item-1867"><a href="/about/join-safaricom/careers" >Careers</a></li></ul></li><li class="item-1839 has-children parent"><a href="/about/brand-toolkit" >Brand Toolkit</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-1868"><a href="/about/brand-toolkit/logos" >Logos</a></li><li class="item-1869"><a href="/about/brand-toolkit/leadership" >Leadership Profiles</a></li><li class="item-1870"><a href="/about/brand-toolkit/brand-assets-toolkit" >Brand Assets</a></li><li class="item-1871"><a href="/about/brand-toolkit/campaign" >Campaigns</a></li></ul></li><li class="item-1841"><a href="/about/contact-us" >Contact Us</a></li><li class="item-1856 has-children parent"><a href="/about/sustainability" >Sustainability</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-1998"><a href="/about/sustainability/integrating-the-sdgs" >Integrating the SDGs to Our Business</a></li><li class="item-1996"><a href="/about/sustainability/safaricom-s-sustainability-objectives" >Sustainability Objectives</a></li><li class="item-1999"><a href="/about/sustainability/sustainability-reports" >Sustainable Business Reports</a></li><li class="item-1997"><a href="/about/sustainability/sustainability-policies" >Sustainability Policies</a></li><li class="item-2043"><a href="https://www.safaricom.co.ke/images/Downloads/Industry-EMF-Booklet-2021.pdf" >EMF Booklet</a></li></ul></li></ul></li><li class="item-198 has-children parent"><a href="/investor-relations" >Investor Relations</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-512 has-children parent"><a href="/investor-relations-landing/reports/annual-reports" >Reports</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-516"><a href="/investor-relations-landing/reports/annual-reports" >Annual Reports</a></li><li class="item-666"><a href="/investor-relations-landing/reports/financial-report" >Financial Reports</a></li><li class="item-524"><a href="/investor-relations-landing/reports/investor-calendar" >Investor Calendar</a></li></ul></li><li class="item-513 has-children parent"><a href="/investor-relations-landing/stocks/shares" >Stocks</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-527"><a href="/investor-relations-landing/stocks/shares" > Share Price Performance</a></li><li class="item-529"><a href="/investor-relations-landing/stocks/dividends" >Dividends</a></li><li class="item-535"><a href="/investor-relations-landing/stocks/analyst-coverage" >Analyst Coverage</a></li></ul></li><li class="item-514"><a href="/investor-relations-landing/meetings" >Meetings </a></li><li class="item-1848"><a href="/investor-relations-landing/for-new-investors" >For New Investors</a></li><li class="item-1943"><a href="/investor-relations-landing/get-in-touch" >Get in touch</a></li></ul></li><li class="item-1843 has-children parent"><a href="/fraud-awareness" >Fraud Awareness</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-1844"><a href="/fraud-awareness/m-pesa-fraud" >M-PESA Fraud</a></li><li class="item-1845"><a href="/fraud-awareness/hoax-sms" >Hoax SMS</a></li><li class="item-1846"><a href="/fraud-awareness/scams-extortion" >Scams/Extortions</a></li><li class="item-1847"><a href="/fraud-awareness/tips-tricks" >Tips &amp; Tricks</a></li><li class="item-1849"><a href="/fraud-awareness/impersonation" >Impersonations</a></li></ul></li><li class="item-427 has-children parent"><a href="/media-center" >Media</a><ul class="megamenu megamenu--mega sub-menu"><li class="item-428"><a href="/media-center-landing/press-releases" >Press Releases</a></li><li class="item-1860"><a href="/media-center-landing/terms-and-conditions" >Terms &amp; Conditions</a></li><li class="item-1864"><a href="/media-center-landing/frequently-asked-questions" >Frequently Asked Questions</a></li><li class="item-431"><a href="https://newsroom.safaricom.co.ke/" target="_blank" rel="noopener noreferrer">Newsroom</a></li><li class="item-429"><a href="/media-center-landing/contact-us-media" >Contact Us</a></li></ul></li><li class="item-1872"><a href="/customer-service" >Customer Service</a></li><li class="item-2027"><a href="/about/join-safaricom/new-customer" >New Customer</a></li></ul>
+
+
+                        <div class="allsites-menu">
+                            <a href="javascript:void(0);">
+                                <span class="allsite_header--text"><i class="icofont-web"></i> All Sites</span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--====================  End of mobile menu overlay  ====================-->
+
+
+        <aside class="slide-bar">
+            <div class="close-mobile-menu">
+                <a href="javascript:void(0);"><i class="fas fa-times"></i></a>
+            </div>
+            <!-- offset-sidebar start -->
+            <div class="offset-sidebar">
+                <ul id="menu-primary-menu" class="nav-menu " data-in="fadeIn" data-out="fadeOut">
+
+                                            
+<div class="offset-sidebar">
+    <ul id="menu-primary-menu" class="nav-menu " data-in="fadeIn" data-out="fadeOut">
+                    <li><a target="_blank" href="https://www.safaricom.com/">Safaricom.com</a></li>
+                    <li><a target="_blank" href="https://www.safaricom.co.ke/mpesaglobalpay/">M-Pesa Global Pay</a></li>
+                    <li><a target="_blank" href="https://m-pesafoundation.org/">M-Pesa Foundation</a></li>
+                    <li><a target="_blank" href="https://www.pamojatuungane.co.ke/">Pamoja Tuungane</a></li>
+                    <li><a target="_blank" href="https://www.safaricom.co.ke/careers/">Safaricom Careers</a></li>
+                    <li><a target="_blank" href="https://www.safaricomfoundation.org/">Safaricom Foundation</a></li>
+                    <li><a target="_blank" href="https://golftour.safaricom.co.ke/">Safaricom Golf Tour</a></li>
+                    <li><a target="_blank" href="https://roaming.safaricom.co.ke/">Safaricom Roaming</a></li>
+                    <li><a target="_blank" href="https://www.safaricom.co.ke/wholesale/">Safaricom Wholesale</a></li>
+                    <li><a target="_blank" href="https://newsroom.safaricom.co.ke/">Newsroom</a></li>
+            </ul>
+</div>
+
+                                    </ul>
+            </div>
+        </aside>
+
+
+        <!--====================  Feedback Modal  ====================-->
+                            <div class="modal-feedback">
+            <div class="modal fade" id="helpfull" tabindex="-1" role="dialog" aria-labelledby="feedbackmodal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Your Feedback Matters.</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <form  id="rapid_contact" method="post" class="contact_form">
+                            <div class="modal-body">
+                                <div class="form-card">
+                                    <div class="form-header text-center">
+                                        <h2>Help us improve our website. Please rate your experience below. </br>1 star = very poor and 5 stars = excellent.</h2>
+                                        <div class="stars">
+                                            <input type="radio" id="age1" name="st1" value="verypoor">
+                                            <label for="age1"><i class="fa fa-star" aria-hidden="true" id="st1"></i></label>
+                                            <input type="radio" id="age2" name="st2" value="poor">
+                                            <label for="age2"><i class="fa fa-star" aria-hidden="true" id="st2"></i></label>
+                                            <input type="radio" id="age3" name="st3" value="fair">
+                                            <label for="age3"><i class="fa fa-star" aria-hidden="true" id="st3"></i></label>
+                                            <input type="radio" id="age4" name="st4" value="good">
+                                            <label for="age4"><i class="fa fa-star" aria-hidden="true" id="st4"></i></label>
+                                            <input type="radio" id="age5" name="st5" value="excellent">
+                                            <label for="age5"><i class="fa fa-star" aria-hidden="true" id="st5"></i></label>
+                                        </div>
+                                        <div class="selected-star">
+                                            <span class="very-poor">Very Poor</span>
+                                            <span class="poor">Poor</span>
+                                            <span class="fair">Fair</span>
+                                            <span class="good">Good</span>
+                                            <span class="excellent">Excellent!</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-body">
+                                        <span class="pointer-icon"></span>
+                                        <div class="very-poor">
+                                            <p>Sorry to hear it. What was the problem?</p>
+                                            <ul>
+                                                <li><input type="checkbox" id="check1" value="Experience"><label for="check1">Website
+                                                        Experience</label></li>
+                                                <li><input type="checkbox" id="check2" value="Service"><label for="check2">Customer
+                                                        Service</label></li>
+                                                <li><input type="checkbox" name="userexperience" id="check3" value="User-Experience"><label for="check3">User
+                                                        Experience</label>
+                                                </li>
+                                                <li><input type="checkbox" id="check4" value="Design"><label for="check4">Bad Design</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="poor">
+                                            <p>Sorry to hear it. What was the problem?</p>
+                                            <ul>
+                                                <li><input type="checkbox" id="checkbox1" value="Experience"><label for="checkbox1">Website
+                                                        Experience</label></li>
+                                                <li><input type="checkbox" id="checkbox2" value="Service"><label for="checkbox2">Customer
+                                                        Service</label></li>
+                                                <li><input type="checkbox" id="checkbox3" value="Ui"><label for="checkbox3">User
+                                                        Experience</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="fair">
+                                            <p>Sorry to hear it. What was the problem?</p>
+                                            <ul>
+                                                <li><input type="checkbox" id="checkbox1" value="Experience"><label for="checkbox1">Website
+                                                        Experience</label></li>
+                                            </ul>
+                                        </div>
+                                        <div class="good">
+                                        </div>
+                                        <div class="excellent">
+                                            <p>We're really glad you had a good experience!</p>
+                                        </div>
+                                        <textarea id="comment" name="comment" value="comment" placeholder="Please tell us more (Max 300 characters)"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer text-center">
+                                <button type="submit" class="btn-read-more">Share with us</button>
+                          <p>Questions or concerns? We are here to help. Reach us <a  href="/about/contact-us">Here</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--====================  Feedback Modal  ====================-->
+        <!--====================  Ad area 1  ====================-->
+        <div class="modal fade popup-new" id="adModal" tabindex="-1" role="dialog" aria-labelledby="adModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Close <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ad-items owl-carousel owl-theme slidenav-left">
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Ad area  ====================-->
+        <!--====================  Ad area 2  ====================-->
+        <div class="modal fade popup-new" id="adModal2" tabindex="-1" role="dialog" aria-labelledby="adModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Close <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ad-items owl-carousel owl-theme slidenav-left">
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Ad area  ====================-->
+        <!--====================  Ad area 3  ====================-->
+        <div class="modal fade popup-new" id="adModal3" tabindex="-1" role="dialog" aria-labelledby="adModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Close <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ad-items owl-carousel owl-theme slidenav-left">
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Ad area  ====================-->
+
+        <!--====================  Ad area 4  ====================-->
+        <div class="modal fade popup-new" id="adModal5" tabindex="-1" role="dialog" aria-labelledby="adModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Close <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ad-items owl-carousel owl-theme slidenav-left">
+
+                            
+
+<div class="custom"  >
+	<div class="ad">
+<div class="ad-image"><img src="/images/whats-new-ad.png" alt="Safaricom Ad" /></div>
+<p>Tools to help you calculate what you can get with your budget real-time.</p>
+<a class="read-more" href="#" data-dismiss="modal">Got It</a></div></div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Ad area  ====================-->
+
+        <!--====================  Ad area 5 ====================-->
+        <div class="modal fade popup-new" id="adModal6" tabindex="-1" role="dialog" aria-labelledby="adModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Close <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ad-items owl-carousel owl-theme slidenav-left">
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Ad area  ====================-->
+
+        <!--====================  Ad area 6  ====================-->
+        <div class="modal fade popup-new" id="adModal7" tabindex="-1" role="dialog" aria-labelledby="adModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Close <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ad-items owl-carousel owl-theme slidenav-left">
+
+                            
+
+<div class="custom"  >
+	<div class="ad">
+<div class="ad-image"><img src="/images/whats-new-ad.png" alt="Safaricom Ad" /></div>
+<p>Data offers and promotions right at your fingertips.</p>
+<a class="read-more" href="#" data-dismiss="modal">Got It</a></div></div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  Ad area  ====================-->
+
+        <!--====================  search overlay ====================-->
+
+        <div class="search-overlay" id="search-overlay2">
+            <div class="search-overlay__header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-4 text-left">
+                            <a href="https://www.safaricom.co.ke/" class="search-logo">
+                                <img alt="Safaricom Logo" src="/images/safaricom-logo-green.png">
+                            </a>
+                        </div>
+                        <div class="col-6 col-4">
+                            <!-- search content -->
+                            <div class="search-content text-right">
+                                <span class="mobile-navigation-close-icon" id="search-close-trigger2"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====================  End of search overlay  ====================-->
+    </div>
+
+    <div class="modal fade helpfull" id="helpfull" tabindex="-1" role="dialog" aria-labelledby="helpfull" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                                            <div class="rapid_contact "><form id="rapid_contact"  id="rp_264060" method="post" class="contact_form">
+<div class="rapid_contact intro_text "></div>
+<div class="rapid_contact_form" id="rapid_contact_form_rp_264060"><label for="rp_264060_subject">How can we improve your experience on our site? Please let us know below.</label><div class="input-group"><input type="hidden" name="pageid" class="pageid" id="rp_264060_pageid" value="http://www.safaricom.co.ke/"> <br /><textarea class="rapid_contact form-control textarea rapid_message" name="rp_message" id="rp_264060_message" cols="10"  rows="4"  placeholder="Your Message" autofocus></textarea></div><div class="input-group"></div><div class="input-group"><input class="rapid_contact rapid_submit btn btn-primary button " type="button" value="Submit Message" disabled/></div></div></form></div><div id="feedback-message" style="color:green"></div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Dan Search Area-->
+    <div class="search-overlay " id="search-overlay">
+        <div class="search-overlay__header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-6 col-4 text-left">
+                        <a href="https://www.safaricom.co.ke/" class="search-logo">
+                            <img alt="Safaricom Logo" src="/images/safaricom-logo-green.png">
+                        </a>
+                    </div>
+                    <div class="col-6 col-4">
+                        <!-- search content -->
+                        <div class="search-content text-right">
+                            <span class="mobile-navigation-close-icon" id="search-close-trigger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-overlay__inner">
+            <div class="container h-100">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <!--   -->
+
+                    <form action="https://www.safaricom.co.ke/search-results" data-children-count="1">
+                        <div class="searchfrom">
+                            <div class="search_bar">
+                                <div class="search-lg-bar">
+                                    <div class="searchicon-bar">
+                                        <span class="searchiconleft" style=""><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+
+                                    <div class="searbarinput">
+                                        <input class="searchbar final_result" id="final_result" name="q" type="text" title="Search" placeholder="Type anything about Safaricom">
+                                    </div>
+
+
+                                    <div class="voice">
+                                        <div class="voiceinside">
+                                            <a id="start_listening" href="#">
+                                                <img src="https://www.safaricom.co.ke//templates/protostar/images/icons/safaricom-mic.png" title="Search by Voice"></a>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="buttons text-center">
+                                <button class="search-bar__cta" type="submit">Search now</button>
+                            </div>
+                            <div id="status_listening" class="mostsearch text-center" style="display: none"> Listening ..</div>
+                            <div id="stop_listening" class="mostsearch text-center" style="display: none">stop Listening </div>
+                            <!-- <div class="mostsearch text-center">Mostly Searched: <a href="#">M-Pesa</a>
+                                 <a href="#">Safaricom Roaming</a> <a href="#">Home Fibre</a> <a href="#">Bonga Points</a>
+                             </div>-->
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Dan Search Area-->
+
+    
+    <script src="https://www.safaricom.co.ke//templates/protostar/js/jquery.js" type="text/Javascript"></script>
+
+    <script src="https://www.safaricom.co.ke//templates/protostar/js/main.js?v=1236" type="text/Javascript"></script>
+    <script src="https://www.safaricom.co.ke//templates/protostar/js/jquery-ui.min.js?v=1234" type="text/Javascript"></script>
+
+    <script src="https://www.safaricom.co.ke//templates/protostar/js/speechRecognition.js" type="text/Javascript"></script>
+
+    <script type="text/javascript">
+        function setCookies() {
+            document.getElementById("cookiesblock").style.display = "none";
+            const d = new Date();
+            d.setTime(d.getTime() + (30 * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = "cookiePolicy=1;cookieP=scookieP;" + expires;
+            // alert(document.cookie);
+            // document.cookie = "cookiePolicy=1,max-age=2592000;";
+        };
+
+
+        $(".allsites-menu > a").on("click", function(e) {
+            e.preventDefault();
+            $(".slide-bar").toggleClass("show");
+            $("body").addClass("on-side");
+            $('.body-overlay').addClass('active');
+            $(this).addClass('active');
+        });
+
+
+        $(".close-mobile-menu > a").on("click", function(e) {
+            e.preventDefault();
+            $(".slide-bar").removeClass("show");
+            $("body").removeClass("on-side");
+            $('.body-overlay').removeClass('active');
+            $('.allsites-menu > a').removeClass('active');
+        });
+
+        $("#search-close-trigger2").on("click", function(e) {
+            e.preventDefault();
+            $("#search-overlay2").removeClass('active');
+        });
+
+        $('.body-overlay').on('click', function() {
+            $(this).removeClass('active');
+            $(".slide-bar").removeClass("show");
+            $("body").removeClass("on-side");
+            $('.allsites-menu > a').removeClass('active');
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var lazyloadImages;
+
+            if ("IntersectionObserver" in window) {
+                lazyloadImages = document.querySelectorAll(".lazy");
+                var imageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            var image = entry.target;
+                            image.src = image.dataset.src;
+                            image.classList.remove("lazy");
+                            imageObserver.unobserve(image);
+                        }
+                    });
+                });
+
+                lazyloadImages.forEach(function(image) {
+                    imageObserver.observe(image);
+                });
+            } else {
+                var lazyloadThrottleTimeout;
+                lazyloadImages = document.querySelectorAll(".lazy");
+
+                function lazyload() {
+                    if (lazyloadThrottleTimeout) {
+                        clearTimeout(lazyloadThrottleTimeout);
+                    }
+
+                    lazyloadThrottleTimeout = setTimeout(function() {
+                        var scrollTop = window.pageYOffset;
+                        lazyloadImages.forEach(function(img) {
+                            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                                img.src = img.dataset.src;
+                                img.classList.remove('lazy');
+                            }
+                        });
+                        if (lazyloadImages.length == 0) {
+                            document.removeEventListener("scroll", lazyload);
+                            window.removeEventListener("resize", lazyload);
+                            window.removeEventListener("orientationChange", lazyload);
+                        }
+                    }, 20);
+                }
+
+                document.addEventListener("scroll", lazyload);
+                window.addEventListener("resize", lazyload);
+                window.addEventListener("orientationChange", lazyload);
+            }
+        });
+    </script>
+
+
+
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1938217929" async></script></body>
+
+</html>
